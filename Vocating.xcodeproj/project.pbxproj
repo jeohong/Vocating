@@ -13,6 +13,7 @@
 		A37D6F9628C092F0006CA3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9428C092F0006CA3D6 /* Main.storyboard */; };
 		A37D6F9828C092F2006CA3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9728C092F2006CA3D6 /* Assets.xcassets */; };
 		A37D6F9B28C092F2006CA3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9928C092F2006CA3D6 /* LaunchScreen.storyboard */; };
+		A3FCC9AE28C0CC7C000C4481 /* Emotion.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A37D6F9728C092F2006CA3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A37D6F9A28C092F2006CA3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A37D6F9C28C092F2006CA3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Emotion.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A37D6F8D28C092F0006CA3D6 /* Vocating */ = {
 			isa = PBXGroup;
 			children = (
+				A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */,
 				A37D6F8E28C092F0006CA3D6 /* AppDelegate.swift */,
 				A37D6F9028C092F0006CA3D6 /* SceneDelegate.swift */,
 				A37D6F9228C092F0006CA3D6 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				A37D6F9328C092F0006CA3D6 /* ViewController.swift in Sources */,
 				A37D6F8F28C092F0006CA3D6 /* AppDelegate.swift in Sources */,
+				A3FCC9AE28C0CC7C000C4481 /* Emotion.mlmodel in Sources */,
 				A37D6F9128C092F0006CA3D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
