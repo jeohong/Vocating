@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		A37D6F8F28C092F0006CA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D6F8E28C092F0006CA3D6 /* AppDelegate.swift */; };
 		A37D6F9128C092F0006CA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D6F9028C092F0006CA3D6 /* SceneDelegate.swift */; };
-		A37D6F9328C092F0006CA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D6F9228C092F0006CA3D6 /* ViewController.swift */; };
-		A37D6F9628C092F0006CA3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9428C092F0006CA3D6 /* Main.storyboard */; };
 		A37D6F9828C092F2006CA3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9728C092F2006CA3D6 /* Assets.xcassets */; };
 		A37D6F9B28C092F2006CA3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D6F9928C092F2006CA3D6 /* LaunchScreen.storyboard */; };
 		A3FCC9AE28C0CC7C000C4481 /* Emotion.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */; };
+		A3FCC9B028C0D1F7000C4481 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC9AF28C0D1F7000C4481 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A37D6F8B28C092F0006CA3D6 /* Vocating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37D6F8E28C092F0006CA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37D6F9028C092F0006CA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A37D6F9228C092F0006CA3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A37D6F9528C092F0006CA3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A37D6F9728C092F2006CA3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A37D6F9A28C092F2006CA3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A37D6F9C28C092F2006CA3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Emotion.mlmodel; sourceTree = "<group>"; };
+		A3FCC9AF28C0D1F7000C4481 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +59,7 @@
 				A3FCC9AD28C0CC7C000C4481 /* Emotion.mlmodel */,
 				A37D6F8E28C092F0006CA3D6 /* AppDelegate.swift */,
 				A37D6F9028C092F0006CA3D6 /* SceneDelegate.swift */,
-				A37D6F9228C092F0006CA3D6 /* ViewController.swift */,
-				A37D6F9428C092F0006CA3D6 /* Main.storyboard */,
+				A3FCC9AF28C0D1F7000C4481 /* MainViewController.swift */,
 				A37D6F9728C092F2006CA3D6 /* Assets.xcassets */,
 				A37D6F9928C092F2006CA3D6 /* LaunchScreen.storyboard */,
 				A37D6F9C28C092F2006CA3D6 /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				A37D6F9B28C092F2006CA3D6 /* LaunchScreen.storyboard in Resources */,
 				A37D6F9828C092F2006CA3D6 /* Assets.xcassets in Resources */,
-				A37D6F9628C092F0006CA3D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37D6F9328C092F0006CA3D6 /* ViewController.swift in Sources */,
 				A37D6F8F28C092F0006CA3D6 /* AppDelegate.swift in Sources */,
 				A3FCC9AE28C0CC7C000C4481 /* Emotion.mlmodel in Sources */,
 				A37D6F9128C092F0006CA3D6 /* SceneDelegate.swift in Sources */,
+				A3FCC9B028C0D1F7000C4481 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A37D6F9428C092F0006CA3D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A37D6F9528C092F0006CA3D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A37D6F9928C092F2006CA3D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +284,6 @@
 				INFOPLIST_FILE = Vocating/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +311,6 @@
 				INFOPLIST_FILE = Vocating/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
