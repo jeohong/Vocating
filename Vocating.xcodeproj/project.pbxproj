@@ -282,6 +282,8 @@
 				DEVELOPMENT_TEAM = UY9DAXUW36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocating/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "음성을 통해 감정을 분석하기 위해 마이크를 사용합니다. 사용자의 음성 내용은 별도로 저장되지 않습니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,6 +311,8 @@
 				DEVELOPMENT_TEAM = UY9DAXUW36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocating/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "음성을 통해 감정을 분석하기 위해 마이크를 사용합니다. 사용자의 음성 내용은 별도로 저장되지 않습니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
